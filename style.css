@@ -1,32 +1,32 @@
+/* CSS reset rule */
 * {
     padding:0;
     margin:0;
     box-sizing:border-box; 
 }
 
+/* Sets the body which contains the main, navigation bar, hero section, projects section, and footer */
 body {
-    display:flex;
-    flex-direction: column;
-    min-height: 100vh;
+    display:flex; /* the display property changes the default display of HTML elements. */
+    flex-direction: column; /* property specifies the direction of the flexible items */
+    min-height: 100vh; /* property defines the minimum height of an element, preventing it from becoming smaller */
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #f0f0f0;
-    color: #3333
+    background-color: white;
 }
 
-.main-container{
-    display:flex;
-    flex: 1;
+.main-container {
+    display:flex; 
+    flex: 1; /* property sets the flexible length on flexible items */ 
     flex-direction: column;
-    justify-content: center;
-    text-align: center;  
+    justify-content: center; /* property aligns the flexible container's items when the items do not use all available space horizontally */
+    text-align: center; /* property specifies the horizontal alignment of text in an element */
 }
-
 
 .navbar {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* property attaches one or more shadows to an element */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; /* property specifies the default alignment for items inside a flexbox or grid container */
     background-color: #333;
     padding: 15px 30px;
 }
@@ -56,10 +56,10 @@ footer {
 }
 
 .nav-links {
-    list-style: none;
+    list-style: none; /* property specifies all the list properties in one declaration */
     display: flex;
     text-align: center;
-    gap: 20px;
+    gap: 20px; /* property defines the size of the gap between the rows and between the columns in flexbox, grid or multi-column layout */ 
     margin: 0;
     padding: 0;
 }
@@ -68,7 +68,7 @@ footer {
   color: white;
   font-size: 16px;
   transition: color 0.3s;
-  text-decoration: none;
+  text-decoration: none; /* property specifies the decoration added to text */
 }
 
 .nav-links a:hover {
@@ -76,22 +76,24 @@ footer {
 }
 
 .footer-links {
+    width:100%;
     list-style: none;
     display: flex;
     text-align: center;
-    gap: 20px;
+    gap: 20px; 
     margin: 0;
     padding: 0;
+    justify-content: center;
 }
 
 .footer-links a {
   color: white;
   font-size: 16px;
-  transition: color 0.3s;
+  transition: color 0.3s; /* transitions the color of the text */
   text-decoration: none;
 }
 
-.footer-links a:hover {
+.footer-links a:hover { /* when hovering the text, it transitions the color of the text */
   color: rgb(242, 98, 242);
 }
 
@@ -102,10 +104,9 @@ footer {
     padding: 30px;
 }
 
-.hero img{
+.hero img {
     width: 300px;
-    height:200px;
-    object-fit:cover;
+    height: 200px;
 }
 
 .projects{
@@ -118,15 +119,15 @@ footer {
 
 .project{
     width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px grey;
-    overflow:hidden;
+    border-radius: 10px; /* property defines the radius of the element's corners, allowing you to add rounded corners to elements */
+    box-shadow: 0 4px 8px grey; /* property attaches one or more shadows to an element */
+    overflow: hidden; /* property specifies what should happen if content overflows an element's box */
 }
 
 .project img{
     width:100%;
-    height:200px;
-    object-fit:cover;
+    height:150px;
+    object-fit:cover; /* property is used to specify how an <img> or <video> should be resized to fit its container */
 }
 
 .project-content{
