@@ -3,7 +3,7 @@
 ![Portfolio Clip Art](https://media.istockphoto.com/id/1333205574/vector/a-portfolio-folder-with-memos-and-bookmarks-office-paperwork-routine.jpg?s=1024x1024&w=is&k=20&c=tN_YK81GoLqdOJ89UeFA9LTtZM6EDMS59UPshgGQ54Q=)
 
 # Project Description 
-This project is a ***personal portfolio landing page** built with HTML and CSS that introduces me and showcases my projects. I chose these technologies because HTML provides the structure for organizing the webpage content, while CSS allows me to style the layout and create a clean, consistent design using tools like Flexbox for alignment and spacing. One challenge I faced while building this project was centering the text in the footer, which required experimenting with justify-content property to achieve the desired layout. In the future, I hope to add working webpage links to the navigation bar so visitors can easily navigate between sections and view more of my work.
+This project is a **personal portfolio landing page** built with HTML and CSS that introduces me and showcases my projects. I chose these technologies because HTML provides the structure for organizing the webpage content, while CSS allows me to style the layout and create a clean, consistent design using tools like Flexbox for alignment and spacing. One challenge I faced while building this project was centering the text in the footer, which required experimenting with justify-content property to achieve the desired layout. In the future, I hope to add working webpage links to the navigation bar so visitors can easily navigate between sections and view more of my work.
 
 # Tutorial
 ## How to Structure a Webpage with HTML
