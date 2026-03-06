@@ -3,7 +3,7 @@
 ![Portfolio Clip Art](https://media.istockphoto.com/id/1333205574/vector/a-portfolio-folder-with-memos-and-bookmarks-office-paperwork-routine.jpg?s=1024x1024&w=is&k=20&c=tN_YK81GoLqdOJ89UeFA9LTtZM6EDMS59UPshgGQ54Q=)
 
 # Project Description 
-This project is a ***personal portfolio landing page** built with HTML and CSS that introduces me and showcases my projects. I chose these technologies because HTML provides the structure for organizing the webpage content, while CSS allows me to style the layout and create a clean, consistent design using tools like Flexbox for alignment and spacing. One challenge I faced while building this project was centering the text in the footer, which required experimenting with different CSS properties to achieve the desired layout. In the future, I hope to add working webpage links to the navigation bar so visitors can easily navigate between sections and view more of my work.
+This project is a ***personal portfolio landing page** built with HTML and CSS that introduces me and showcases my projects. I chose these technologies because HTML provides the structure for organizing the webpage content, while CSS allows me to style the layout and create a clean, consistent design using tools like Flexbox for alignment and spacing. One challenge I faced while building this project was centering the text in the footer, which required experimenting with justify-content property to achieve the desired layout. In the future, I hope to add working webpage links to the navigation bar so visitors can easily navigate between sections and view more of my work.
 
 # Tutorial
 ## How to Structure a Webpage with HTML
@@ -82,9 +82,14 @@ In CSS:
 It's best practice to name the IDs and classes based on their content or purpose and not on their appearance. 
 
 ## How to Organize Content using Flexbox
+The flexbox layout aims at providing a more efficient way to lay out, align and distribute space among items in a container. A flex container expands items to fill available free space or shrinks them to prevent overflow.
+
+Note: Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.
+
 ### Justify-Content Property 
 ![Justify-Content Image](https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg)
 
+justify-content is a key property of flexbox. This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line.
 
 
 ## How to Apply Consistent Spacing
