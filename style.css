@@ -93,6 +93,13 @@ body {
   text-align: center;
 }
 
+.projects-heading {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 .projects {
   display: flex;
   flex-wrap: wrap;
