@@ -178,12 +178,33 @@ footer {
 /* Media Queries */
 /* Tablet Device */
 @media screen and (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .logo {
+    font-size: 21px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .hero {
+    padding: 25px 20px;
+  }
+
   .project-grid {
+    padding: 30px 20px;
     background-color: rgba(126, 192, 126, 0.562);
   }
-  .project-grid::after {
-    content: "Tablet Device";
+
+  .projects {
+    gap: 20px;
   }
+
 }
 
 /* Mobile Device */
